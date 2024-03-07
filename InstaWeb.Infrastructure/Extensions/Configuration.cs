@@ -1,4 +1,6 @@
-﻿using InstaWeb.Infrastructure.DAL;
+﻿using InstaWeb.Application.Drivers;
+using InstaWeb.Infrastructure.DAL;
+using InstaWeb.Infrastructure.DAL.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -11,6 +13,7 @@ namespace InstaWeb.Infrastructure.Extensions
         {
             services.AddDbContext<InstaWebDbContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<IDriversRepository, DriversRepository>();
         }
     }
 }

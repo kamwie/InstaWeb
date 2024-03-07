@@ -1,4 +1,5 @@
 using InstaWeb.Infrastructure.Extensions;
+using InstaWeb.Application.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 
 builder.Services.ConfigureInfrastructure(builder.Configuration);
-
+builder.Services.ConfigureApplication();
 
 var app = builder.Build();
 
