@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaWeb", "InstaWeb.csproj", "{00A18537-9019-41C5-B55A-E332F4791CC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstaWeb", "InstaWeb\InstaWeb.csproj", "{107B854C-F393-4FF8-BEC3-2E8CED218903}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaWeb.Application", "InstaWeb.Application\InstaWeb.Application.csproj", "{AE235EF9-AAA1-4084-9EE8-05FC2AD8C82A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstaWeb.Infrastructure", "InstaWeb.Infrastructure\InstaWeb.Infrastructure.csproj", "{2BE8FBFF-58FB-493E-936D-500646B2F16D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaWeb.Infrastructure", "InstaWeb.Infrastructure\InstaWeb.Infrastructure.csproj", "{A6A57CF4-CE89-4AA2-9996-A9AE62CB1598}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstaWeb.Application", "InstaWeb.Application\InstaWeb.Application.csproj", "{52127FFD-AADF-4923-8D2B-23D458F6B276}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{00A18537-9019-41C5-B55A-E332F4791CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{00A18537-9019-41C5-B55A-E332F4791CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{00A18537-9019-41C5-B55A-E332F4791CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{00A18537-9019-41C5-B55A-E332F4791CC1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE235EF9-AAA1-4084-9EE8-05FC2AD8C82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE235EF9-AAA1-4084-9EE8-05FC2AD8C82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE235EF9-AAA1-4084-9EE8-05FC2AD8C82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE235EF9-AAA1-4084-9EE8-05FC2AD8C82A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A6A57CF4-CE89-4AA2-9996-A9AE62CB1598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6A57CF4-CE89-4AA2-9996-A9AE62CB1598}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6A57CF4-CE89-4AA2-9996-A9AE62CB1598}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A6A57CF4-CE89-4AA2-9996-A9AE62CB1598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{107B854C-F393-4FF8-BEC3-2E8CED218903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{107B854C-F393-4FF8-BEC3-2E8CED218903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{107B854C-F393-4FF8-BEC3-2E8CED218903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{107B854C-F393-4FF8-BEC3-2E8CED218903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE8FBFF-58FB-493E-936D-500646B2F16D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE8FBFF-58FB-493E-936D-500646B2F16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE8FBFF-58FB-493E-936D-500646B2F16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE8FBFF-58FB-493E-936D-500646B2F16D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52127FFD-AADF-4923-8D2B-23D458F6B276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52127FFD-AADF-4923-8D2B-23D458F6B276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52127FFD-AADF-4923-8D2B-23D458F6B276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52127FFD-AADF-4923-8D2B-23D458F6B276}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
