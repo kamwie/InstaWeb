@@ -18,12 +18,12 @@ namespace InstaWeb.Pages
 
         public void OnGet()
         {
-
         }
-        public async Task<IActionResult> CreateDriver()
+        public async Task<IActionResult> OnPostCreateDriver()
         {
             await driversService.CreateDriver("Zbyszek", "Zbyszowski");
-            return RedirectToPage("/Index");
+            return RedirectToPage("./Index");
         }
+        
     }
 }
