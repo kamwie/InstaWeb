@@ -19,6 +19,7 @@ namespace InstaWeb.Pages
         public void OnGet()
         {
         }
+
         public async Task<IActionResult> OnPostCreateDriver()
         {
             await driversService.CreateDriver("Zbyszek", "Zbyszowski");
